@@ -3,6 +3,8 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
+import logo from '../assets/logo.jpg';
+
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -18,8 +20,8 @@ const Navbar = () => {
       route: "about",
     },
     {
-      name: "Services",
-      route: "services",
+      name: "Resume",
+      route: "resume",
     },
     {
       name: "Projects",
@@ -50,28 +52,21 @@ const Navbar = () => {
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
-            <a
-              href="/"
-              className={
-                darkMode
-                  ? "text-xl font-medium text-decoration-none whitespace-nowrap text-black"
-                  : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
-              }
-            >
-              {`<ꪖꪖƙꪖకꫝ కꫝꪖꪹꪑꪖ/>`}
-            </a>
+            <a href="/" style={{width:'8%'}}
+              ><img src={logo} alt='vinay shah' />
+              </a>
           </div>
-          <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
+          <div className="hidden justify-between items-center w-full md:flex md:w-auto ">
             <ul
-              class={
+              className={
                 "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
               }
             >
               {links.map((el) => (
-                <li className="cursor-pointer">
+                <li className="cursor-pointer" key={el.route}>
                   <Link
                     to={el.route}
-                    activeClass={"text-white bg-blue-500"}
+                    activeclassname={"text-white bg-blue-500"}
                     spy={true}
                     smooth={true}
                     className={
@@ -143,11 +138,11 @@ const Navbar = () => {
                 : "bg-black py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
             }
           >
-            <ul class="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
+            <ul className="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
               {links.map((el) => (
                 <Link
                   to={el.route}
-                  activeClass={"text-white bg-blue-500"}
+                  activeclassName={"text-white bg-blue-500"}
                   className={
                     darkMode
                       ? "hover:bg-blue-500 text-black block px-3 py-2 rounded-md text-base font-medium mt-1 hover:text-white"

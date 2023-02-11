@@ -20,7 +20,7 @@ const Contact = () => {
         </h2>
         <div>
           <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-            Connect with me
+          Let's Talk ?
           </h4>
           <p className="text-gray-500 text-xl">
             If you want to know more about me or my work, or if you would just
@@ -31,10 +31,10 @@ const Contact = () => {
         <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
           <div className="w-full md:pr-8">
             <form>
-              <div class="my-6">
+              <div className="my-6">
                 <label
-                  for="name"
-                  class={
+                  htmlFor="name"
+                  className={
                     darkMode
                       ? "block mb-2 text-lg font-medium text-gray-900"
                       : "block mb-2 text-lg font-medium text-white"
@@ -43,17 +43,17 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   id="name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your name"
                   required
                 />
               </div>
               <div className="mb-4">
                 <label
-                  for="email"
-                  class={
+                  htmlFor="email"
+                  className={
                     darkMode
                       ? "block mb-2 text-lg font-medium text-gray-900"
                       : "block mb-2 text-lg font-medium text-white"
@@ -64,15 +64,15 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your email"
                   required
                 />
               </div>
               <div className="mb-4">
                 <label
-                  for="message"
-                  class={
+                  htmlFor="message"
+                  className={
                     darkMode
                       ? "block mb-2 text-lg font-medium text-gray-900"
                       : "block mb-2 text-lg font-medium text-white"
@@ -82,46 +82,46 @@ const Contact = () => {
                 </label>
                 <textarea
                   id="message"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your message"
                   required
                 />
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:aakash.sh858791@gmail.com">
+                  <a href="https://mail.google.com/mail/u/1/#inbox?compose=new" target=' blank'>
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:aakash.sh858791@gmail.com">Submit</a>
+                  <a href="mailto:shahvinay1005.sv@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-            {/* <h1 className="text-3xl font-bold">Phone</h1>
+             <h1 className="text-3xl font-bold">Phone</h1>
             <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              href="tel:+1(519)2008385"
+              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase" target=' blank'
             >
-              +91 8285631499
-            </a> */}
+              +1 (519)-***-**85
+            </a> 
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
+              href="https://mail.google.com/mail/u/1/#inbox?compose=new" target=" blank"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              aakash.sh858791@gmail.com
+              shahvinay1005.sv@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
-              href="hello"
-              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
+              href="https://www.google.com/maps/place/18+Tamarisk+Dr,+Etobicoke,+ON+M9V+1S3/@43.7331392,-79.5990129,17z/data=!3m1!4b1!4m6!3m5!1s0x882b3a57aab95841:0x8d0919fe1f983c9e!8m2!3d43.7331353!4d-79.5968242!16s%2Fg%2F11c2cj6vdy"
+              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase" target=' blank'
             >
-              Jhilmil Colony, Delhi
+              18, Tamarisk Drive, Etobicoke, ON, M9V 3X2
               <br />
-              India
+              CANADA
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
@@ -129,9 +129,9 @@ const Contact = () => {
                 <a
                   href={el.link}
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
+                  target=' blank' key={el.name}
                 >
-                  <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
+                  <img alt={el.name} src={el.url} style={{height:'2rem', width: '2rem'}} />
                 </a>
               ))}
             </ul>
@@ -141,13 +141,11 @@ const Contact = () => {
       <div
         className={
           darkMode
-            ? "w-full bg-white text-black text-lg py-3 flex justify-center md:mt-20"
-            : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20"
+            ? "w-full bg-white text-black text-lg py-3 flex justify-center "
+            : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center"
         }
       >
-        Made with
-        <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Aakash Sharma
+       &copy; Copyright 2023 by 	&#160; <a href="https://www.instagram.com/vish__105/" target=' blank'>Vinay Shah</a>
       </div>
     </div>
   );

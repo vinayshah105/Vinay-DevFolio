@@ -21,7 +21,7 @@ const About = () => {
         <div>
           <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-              A bit about me
+              Me in a nutshell
             </h4>
             <p
               className={
@@ -30,20 +30,21 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-white"
               }
             >
-              I'm a self-taught web developer and Mobile App Developer with
-              experience in designing new features from ideation to production,
-              implementation of wireframes and design flows into high
-              performance software applications. I take into consideration the
-              user experience while writing reusable and efficient code. I
-              passionately combine good design, technology, and innovation in
-              all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              I'm a Toronto-based performance-focused Software Developer with
+              more than 2 years of experience in designing new features from
+              ideation to production, implementation of wireframes and design
+              flows into high performance software applications. I take into
+              consideration the user experience while writing reusable and
+              efficient code.
+              <br />
+              I think it’s important to get regular screen downtime, so
+              when I’m not pushing pixels, you’ll find me in GYM, swimming pool or in my kitchen. 
+              Also, i like to spend some quality time with my friends or family.
             </p>
           </motion.div>
-          <motion.div
-          >
+          <motion.div>
             <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-              Technologies and Tools
+              Tech Stack
             </h4>
             <p
               className={
@@ -62,6 +63,7 @@ const About = () => {
               <motion.div
                 initial="hidden"
                 whileInView={"visible"}
+                key={el.name}
                 variants={{
                   visible: {
                     y: 0,

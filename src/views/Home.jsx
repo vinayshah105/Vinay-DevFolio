@@ -4,9 +4,9 @@ import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
 import cloud from "../assets/cloudBg.png";
 import cloudDark from "../assets/cloudDark.png";
+import resume from '../assets/Vinay_Shah_Resume 1.3.docx';
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -29,17 +29,17 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Vinay Shah
               </motion.span>
-              <span className="block text-blue-500 z-0 lg:inline">
+              <span className="block text-blue-600 z-0 lg:inline">
                 <Typical
                   steps={[
                     "Front End Developer",
-                    1000,
-                    "Full Stack Developer",
-                    1000,
-                    "Mobile Developer",
-                    1000,
+                    2000,
+                    "MERN Developer",
+                    2000,
+                    "Back End Developer",
+                    2000,
                   ]}
                   loop={Infinity}
                 />
@@ -53,24 +53,24 @@ const Home = () => {
               }
             >
               I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              CloudStok Technologies as a MERN Stack Developer
             </p>
             <div className="flex md:justify-start ">
-              {contactLinks.map((el) => (
+              {
+                contactLinks.map((el) => (
                 <a
-                  href={el.link}
-                  className="mr-5 cursor-pointer mt-8 hover:scale-125"
+                  href={el.link} target=" blank"
+                  className="mr-5 cursor-pointer mt-8 hover:scale-125" key={el.name}
                 >
-                  <img alt="" src={el.url} />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
+                  <img alt={el.name} src={el.url} style={{height:'2rem', width: '2rem'}} />
                 </a>
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                <a href={resume} download='Vinay_Shah_Resume 1.3.docx' className="items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-gray-900 md:py-4 md:text-lg md:px-10">
                   Resume
-                </Link>
+                </a>
               </div>
             </div>
           </div>
