@@ -105,7 +105,7 @@ export const contactLinks = [
 export const data = {
   experience: [
     {
-      companyName: " Google",
+      companyName: "tell.com",
       position: "Full Stack Developer",
       des: "Planned website development, converting mockups into usable web presence with HTML, JavaScript, AJAX, and JSON coding. Cooperating with the back-end developer in the process of building the REST API. •	Revised, modularized, and updated old code bases to modern development standards, reducing operating costs, and improving functionality.",
       year: "2020-Current",
