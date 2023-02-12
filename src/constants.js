@@ -87,12 +87,12 @@ export const contactLinks = [
   {
     name: "Github",
     url: "https://www.seekpng.com/png/detail/101-1017465_github-github-icon-png-grey.png",
-    link: "https://github.com/aakashsh1999",
+    link: "https://github.com/vinayshah105",
   },
   {
     name: "LinkedIn",
     url: "https://cdn-icons-png.flaticon.com/256/174/174857.png",
-    link: "https://www.linkedin.com/in/aakashsh1999/",
+    link: "https://www.linkedin.com/in/vinay-shah007/",
   },
   {
     name: "Twitter",
