@@ -1,55 +1,57 @@
-.workexperience-section{
-    margin-top: 60px ;
+.workexperience-section {
+  margin-top: 60px;
 }
-.tech-skills p{
-    background-color: black;
-    border-radius: 90px;
-    color: white;
-    text-align: center;
-    padding: 8px;
-    text-align: center;
-    font-weight: normal;
+.tech-skills p {
+  background-color: #5b62b5;
+  border-radius: 90px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-align: center;
+  font-weight: normal;
 }
-.tech-skills p:hover{
-    background-color: blueviolet;
-    cursor: pointer;
-}
-
-.timeline{
-    display: flex;
-    width: 100%;
-    padding: 20px;
+.tech-skills p:hover {
+  background-color: rgb(180, 121, 235);
+  cursor: pointer;
 }
 
-.timeline_experience, .timeline_education{
-    width: 50%;
-    gap:2rem;
-    display: flex;
+.timeline {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+
+.timeline_experience,
+.timeline_education {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-class {
+  color: black;
+  text-decoration: underline;
+}
+.date-class-dark {
+  color: black;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 768px) {
+  .timeline {
     flex-direction: column;
-    align-items: center;
-}
-
-.date-class{
-    color: white;
-}
-.date-class-dark{
-    color:black;
-}
-.row{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-@media only screen and (max-width:768px){
-    .timeline{
-        flex-direction: column;
-        width: 100%;
-    }
-    .row{
-        display: list-item;
-    }
-    .timeline_experience, .timeline_education{
-        width: 100%;
-        gap: 2.5rem;
-    }
+    width: 100%;
+  }
+  .row {
+    display: list-item;
+  }
+  .timeline_experience,
+  .timeline_education {
+    width: 100%;
+    gap: 2.5rem;
+  }
 }
