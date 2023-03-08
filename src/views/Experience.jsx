@@ -96,7 +96,7 @@ const WorkExperience = () => {
                 : 'text-3xl font-semibold px-4 md:px-0 text-center text-blue-500'
             }
           >
-            Education
+            Education1
           </h3>
 
           <VerticalTimeline layout="1-column" lineColor="purple">
