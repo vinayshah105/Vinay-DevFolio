@@ -1,6 +1,6 @@
-import React, { useContext } from "react";
-import { contactLinks } from "../constants";
-import { ThemeContext } from "../themeProvider";
+import React, { useContext } from 'react';
+import { contactLinks } from '../constants';
+import { ThemeContext } from '../themeProvider';
 
 const Contact = () => {
   const theme = useContext(ThemeContext);
@@ -10,8 +10,8 @@ const Contact = () => {
       id="contact"
       className={
         darkMode
-          ? "bg-gray-100 pt-24 md:h-screen"
-          : "bg-black pt-24 text-white md:h-screen"
+          ? 'bg-gray-100 pt-24 md:h-screen'
+          : 'bg-black pt-24 text-white md:h-screen'
       }
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
@@ -20,7 +20,7 @@ const Contact = () => {
         </h2>
         <div>
           <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-          Let's Talk ?
+            Let's Talk ?
           </h4>
           <p className="text-gray-500 text-xl">
             If you want to know more about me or my work, or if you would just
@@ -36,8 +36,8 @@ const Contact = () => {
                   htmlFor="name"
                   className={
                     darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
+                      ? 'block mb-2 text-lg font-medium text-gray-900'
+                      : 'block mb-2 text-lg font-medium text-white'
                   }
                 >
                   Name
@@ -55,8 +55,8 @@ const Contact = () => {
                   htmlFor="email"
                   className={
                     darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
+                      ? 'block mb-2 text-lg font-medium text-gray-900'
+                      : 'block mb-2 text-lg font-medium text-white'
                   }
                 >
                   Email
@@ -74,8 +74,8 @@ const Contact = () => {
                   htmlFor="message"
                   className={
                     darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
+                      ? 'block mb-2 text-lg font-medium text-gray-900'
+                      : 'block mb-2 text-lg font-medium text-white'
                   }
                 >
                   Message
@@ -89,7 +89,10 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="https://mail.google.com/mail/u/1/#inbox?compose=new" target=' blank'>
+                  <a
+                    href="https://mail.google.com/mail/u/1/#inbox?compose=new"
+                    target=" blank"
+                  >
                     Send me email directly
                   </a>
                 </div>
@@ -100,16 +103,18 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
-             <h1 className="text-3xl font-bold">Phone</h1>
+            <h1 className="text-3xl font-bold">Phone</h1>
             <a
               href="tel:+1(519)2008385"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase" target=' blank'
+              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              target=" blank"
             >
-              +1 (519)-***-**85
-            </a> 
+              +1 (519)-200-8385
+            </a>
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="https://mail.google.com/mail/u/1/#inbox?compose=new" target=" blank"
+              href="https://mail.google.com/mail/u/1/#inbox?compose=new"
+              target=" blank"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
               shahvinay1005.sv@gmail.com
@@ -117,11 +122,10 @@ const Contact = () => {
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="https://www.google.com/maps/place/18+Tamarisk+Dr,+Etobicoke,+ON+M9V+1S3/@43.7331392,-79.5990129,17z/data=!3m1!4b1!4m6!3m5!1s0x882b3a57aab95841:0x8d0919fe1f983c9e!8m2!3d43.7331353!4d-79.5968242!16s%2Fg%2F11c2cj6vdy"
-              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase" target=' blank'
+              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
+              target=" blank"
             >
-              18, Tamarisk Drive, Etobicoke, ON, M9V 3X2
-              <br />
-              CANADA
+              Toronto, ON, CANADA
             </a>
             <h1 className="text-3xl  font-bold">Social</h1>
             <ul className="flex">
@@ -129,9 +133,14 @@ const Contact = () => {
                 <a
                   href={el.link}
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
-                  target=' blank' key={el.name}
+                  target=" blank"
+                  key={el.name}
                 >
-                  <img alt={el.name} src={el.url} style={{height:'2rem', width: '2rem'}} />
+                  <img
+                    alt={el.name}
+                    src={el.url}
+                    style={{ height: '2rem', width: '2rem' }}
+                  />
                 </a>
               ))}
             </ul>
@@ -141,11 +150,14 @@ const Contact = () => {
       <div
         className={
           darkMode
-            ? "w-full bg-white text-black text-lg py-3 flex justify-center "
-            : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center"
+            ? 'w-full bg-white text-black text-lg py-3 flex justify-center '
+            : 'w-full bg-gray-900 text-white text-lg py-3 flex justify-center'
         }
       >
-       &copy; Copyright 2023 by 	&#160; <a href="https://www.instagram.com/vish__105/" target=' blank'>Vinay Shah</a>
+        &copy; Copyright 2023 by &#160;{' '}
+        <a href="https://www.instagram.com/vish__105/" target=" blank">
+          Vinay Shah
+        </a>
       </div>
     </div>
   );

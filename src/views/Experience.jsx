@@ -45,13 +45,13 @@ const WorkExperience = () => {
                 key={item.companyName}
                 contentStyle={
                   darkMode
-                    ? { backgroundColor: '#4a0c78f2' }
+                    ? { backgroundColor: '#062ded7a' }
                     : { backgroundColor: '#fbf4f4' }
                 }
                 className={
                   darkMode
-                    ? 'mt-4 text-xl text-justify text-gray-500'
-                    : 'mt-4 text-xl text-justify text-white-500'
+                    ? 'mt-4 text-xl text-justify text-white-500'
+                    : 'mt-4 text-xl text-justify text-black-500'
                 }
                 contentArrowStyle={{
                   borderRight: '7px solid  rgb(33, 150, 243)',
@@ -110,8 +110,8 @@ const WorkExperience = () => {
                 }
                 className={
                   darkMode
-                    ? 'mt-4 text-xl text-justify text-gray-500'
-                    : 'mt-4 text-xl text-justify text-white-500'
+                    ? 'mt-4 text-xl text-justify text-white-500'
+                    : 'mt-4 text-xl text-justify text-black-500'
                 }
                 contentArrowStyle={{
                   borderRight: '7px solid  rgb(33, 150, 243)',

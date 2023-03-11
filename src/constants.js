@@ -106,7 +106,7 @@ export const data = {
     {
       companyName: 'Centurion Technology Solutions Inc',
       position: 'Full Stack Developer',
-      des: 'Working with eCommerce platforms and create custom plugins for WordPress, OpenCart, Drupal, and Shopify. For Client-side:Developed login screen, drag and drop and delete feature, image upload, content editor feature. Some plugins are User tracking, Book an Appointment, Chat support, Invoicing, etc. Registration form, display payment messages from Global Pay API and created an admin panel.',
+      des: 'Working with eCommerce platforms and create custom plugins for WordPress, OpenCart, Drupal, and Shopify. For Client-side Developed login screen, drag and drop and delete feature, image upload, content editor feature. Some plugins are User tracking, Book an Appointment, Chat support, Invoicing, etc. Registration form, display payment messages from Global Pay API and created an admin panel.',
       year: "Sept'20-Current",
       techSkills: [
         {

@@ -1,11 +1,11 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react';
+import { motion } from 'framer-motion';
 
 const Card = () => {
   return (
     <motion.div
-      initial={"hidden"}
-      whileInView={"visible"}
+      initial={'hidden'}
+      whileInView={'visible'}
       variants={{
         visible: { opacity: 1 },
         hidden: { opacity: 0 },
@@ -15,19 +15,20 @@ const Card = () => {
       <a href="hello">
         <img
           className="rounded-t-lg w-full"
-          src="https://images.wallpaperscraft.com/image/single/system_scheme_blue_blueprint_10428_300x168.jpg"
+          src="https://codevoweb.com/wp-content/uploads/2022/02/how-to-build-a-fashion-ecommerce-website-with-html-css-scss-and-javascript.webp"
           alt=""
         />
       </a>
       <div className="p-5">
         <a href="helo">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
+            Fashion-hub e-Commerce Store
           </h5>
         </a>
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+          Online e-Commerce fashion Store, where you can find variety of fashion
+          clothes and accessories. Also, there is one stop and shop for branded
+          clothes.
         </p>
       </div>
     </motion.div>

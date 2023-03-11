@@ -18,9 +18,6 @@ const Projects = () => {
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           <Card />
           <Card />
-          <Card />
-          <Card />
-          <Card />
         </div>
       </div>
     </div>

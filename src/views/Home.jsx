@@ -6,7 +6,7 @@ import { ThemeContext } from '../themeProvider';
 import { motion } from 'framer-motion';
 import cloud from '../assets/cloudBg.png';
 import cloudDark from '../assets/cloudDark.png';
-import resume from '../assets/Vinay_Shah_Resume 1.3.docx';
+import resume from '../assets/Vinay_Shah_Resume.pdf';
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -89,7 +89,7 @@ const Home = () => {
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a
                   href={resume}
-                  download="Vinay_Shah_Resume 1.3.docx"
+                  download="Vinay_Shah_Resume"
                   className="items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-gray-900 md:py-4 md:text-lg md:px-10"
                 >
                   Resume

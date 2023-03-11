@@ -43,6 +43,7 @@ const About = () => {
                   understand problems and find positive solutions using
                   troubleshooting, problem-solving, teaming, and communication
                   skills.
+                  <br />
                   <br />I think it’s important to get regular screen downtime,
                   so when I’m not pushing pixels, you’ll find me in GYM,
                   swimming pool or in my kitchen. Also, i like to spend some
