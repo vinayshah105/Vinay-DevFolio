@@ -29,17 +29,17 @@ const Home = () => {
               <motion.span
                 className={darkMode ? 'block text-black' : ' text-white'}
               >
-                Hi, I am Vinay Shah
+                Hi👋 I am Vinay Shah
               </motion.span>
               <span className="block text-blue-600 z-0 lg:inline">
                 <Typical
                   steps={[
+                    'Full Stack Developer',
+                    1500,
                     'MERN Developer',
-                    2000,
-                    'Front End Developer',
-                    2000,
-                    'Back End Developer',
-                    2000,
+                    1500,
+                    'React Developer',
+                    1500,
                   ]}
                   loop={Infinity}
                 />
@@ -53,8 +53,9 @@ const Home = () => {
                     : 'mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'
                 }
               >
-                I am a Full-Stack Web Developer. I am currently working at
-                Centurion Technology Solutions Inc as a Full-stack Developer.{' '}
+                I am a Full-Stack Web Developer with more than 3 years of
+                extensive and applied experience in building web applications
+                using different technologies.
               </li>
 
               <li

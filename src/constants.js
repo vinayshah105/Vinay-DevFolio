@@ -1,10 +1,10 @@
 export const techStack = [
   {
-    name: 'HTML',
+    name: 'HTML5',
     link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
   },
   {
-    name: 'CSS',
+    name: 'CSS3',
     link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg',
   },
   {
@@ -20,28 +20,32 @@ export const techStack = [
     link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
   },
   {
-    name: 'React Native',
-    link: 'https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png',
-  },
-  {
-    name: 'Express',
-    link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
-  },
-  {
-    name: 'NodeJS',
-    link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
-  },
-  {
-    name: 'Postman',
-    link: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
-  },
-  {
-    name: 'React',
+    name: 'React.js',
     link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
   },
   {
     name: 'Redux',
     link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg',
+  },
+  {
+    name: 'Express.js',
+    link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg',
+  },
+  {
+    name: 'Node.js',
+    link: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg',
+  },
+  {
+    name: 'Mongo DB',
+    link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg',
+  },
+  {
+    name: 'Gatsby.js',
+    link: 'https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg',
+  },
+  {
+    name: 'Postman',
+    link: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
   },
   {
     name: 'Sass',
@@ -52,10 +56,6 @@ export const techStack = [
     link: 'https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg',
   },
   {
-    name: 'Mongo DB',
-    link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg',
-  },
-  {
     name: 'Heroku',
     link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg',
   },
@@ -64,12 +64,12 @@ export const techStack = [
     link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg',
   },
   {
-    name: 'Firebase',
-    link: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
+    name: 'Github',
+    link: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg',
   },
   {
-    name: 'VS Code',
-    link: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+    name: 'WordPress',
+    link: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Wordpress-Logo.svg',
   },
 ];
 
@@ -96,7 +96,7 @@ export const contactLinks = [
   },
   {
     name: 'Twitter',
-    url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/256px-Twitter-logo.svg.png',
+    url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Logo_of_Twitter%2C_Inc..svg',
     link: 'https://twitter.com/vinay_shah007',
   },
 ];
@@ -123,6 +123,32 @@ export const data = {
         },
         {
           techName: 'MongoDB',
+        },
+      ],
+    },
+    {
+      companyName: 'Redding Designs',
+      position: 'Web Developer',
+      des: 'Work collaboratively with clients and in-house agency team to provide rapid, robust, and client-acclaimed full-stack web applications for user-optimized experience. Use SDLC and Agile methods to complete each project. Working with HTML5, CSS3, Bootstrap, SASS, JavaScript (ES6), React, React Native, Redux, WordPress, NoSQL Server, NodeJS technologies.',
+      year: "Nov'19 - Sept'20",
+      techSkills: [
+        {
+          techName: 'React.js',
+        },
+        {
+          techName: 'Redux',
+        },
+        {
+          techName: 'Node.js',
+        },
+        {
+          techName: 'Express.js',
+        },
+        {
+          techName: 'NoSQL',
+        },
+        {
+          techName: 'WordPress',
         },
       ],
     },

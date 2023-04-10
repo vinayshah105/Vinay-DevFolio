@@ -34,15 +34,16 @@ const About = () => {
               >
                 <p>
                   I'm a Toronto-based performance-focused Software Developer
-                  with more than 2 years of experience in and developing Web
+                  with more than 3 years of experience in and developing Web
                   Applications from scratch to production and maintenance using{' '}
                   <b> MERN Stack web development </b> technologies. I am
-                  dedicated to constantly improving tools and infrastructure to
-                  maximize productivity, minimize system downtime, and quickly
-                  respond to the changing needs of the business. Able to
-                  understand problems and find positive solutions using
-                  troubleshooting, problem-solving, teaming, and communication
-                  skills.
+                  currently working at Centurion Technology Solutions Inc as a
+                  Full-stack Developer. I am dedicated to constantly improving
+                  tools and infrastructure to maximize productivity, minimize
+                  system downtime, and quickly respond to the changing needs of
+                  the business. Able to understand problems and find positive
+                  solutions using troubleshooting, problem-solving, teaming, and
+                  communication skills.
                   <br />
                   <br />I think it’s important to get regular screen downtime,
                   so when I’m not pushing pixels, you’ll find me in GYM,
@@ -67,7 +68,7 @@ const About = () => {
               }
             >
               Using a combination of cutting-edge technologies and reliable
-              open-source software I build user-focused, performant apps and
+              open-source software I build good user-interface responsive
               websites for smartphones, tablets, and desktops.
             </p>
           </motion.div>

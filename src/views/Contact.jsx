@@ -115,7 +115,7 @@ const Contact = () => {
             <a
               href="https://mail.google.com/mail/u/1/#inbox?compose=new"
               target=" blank"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+              className="mb-12 mt-4 font-semibold text-blue-700 block"
             >
               shahvinay1005.sv@gmail.com
             </a>
@@ -154,7 +154,7 @@ const Contact = () => {
             : 'w-full bg-gray-900 text-white text-lg py-3 flex justify-center'
         }
       >
-        &copy; Copyright 2023 by &#160;{' '}
+        &copy; Copyright 2023 by &#160;
         <a href="https://www.instagram.com/vish__105/" target=" blank">
           Vinay Shah
         </a>
