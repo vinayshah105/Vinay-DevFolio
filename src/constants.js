@@ -96,7 +96,7 @@ export const contactLinks = [
   },
   {
     name: 'Twitter',
-    url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Logo_of_Twitter%2C_Inc..svg',
+    url: 'https://cdn.cdnlogo.com/logos/t/96/twitter-icon.svg',
     link: 'https://twitter.com/vinay_shah007',
   },
 ];
@@ -107,7 +107,7 @@ export const data = {
       companyName: 'Centurion Technology Solutions Inc',
       position: 'Full Stack Developer',
       des: 'Working with eCommerce platforms and create custom plugins for WordPress, OpenCart, Drupal, and Shopify. For Client-side Developed login screen, drag and drop and delete feature, image upload, content editor feature. Some plugins are User tracking, Book an Appointment, Chat support, Invoicing, etc. Registration form, display payment messages from Global Pay API and created an admin panel.',
-      year: "Sept'20-Current",
+      year: "Feb'21-Current",
       techSkills: [
         {
           techName: 'JavaScript',
@@ -123,32 +123,6 @@ export const data = {
         },
         {
           techName: 'MongoDB',
-        },
-      ],
-    },
-    {
-      companyName: 'Redding Designs',
-      position: 'Web Developer',
-      des: 'Work collaboratively with clients and in-house agency team to provide rapid, robust, and client-acclaimed full-stack web applications for user-optimized experience. Use SDLC and Agile methods to complete each project. Working with HTML5, CSS3, Bootstrap, SASS, JavaScript (ES6), React, React Native, Redux, WordPress, NoSQL Server, NodeJS technologies.',
-      year: "Nov'19 - Sept'20",
-      techSkills: [
-        {
-          techName: 'React.js',
-        },
-        {
-          techName: 'Redux',
-        },
-        {
-          techName: 'Node.js',
-        },
-        {
-          techName: 'Express.js',
-        },
-        {
-          techName: 'NoSQL',
-        },
-        {
-          techName: 'WordPress',
         },
       ],
     },

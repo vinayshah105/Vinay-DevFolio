@@ -6,7 +6,7 @@ import { ThemeContext } from '../themeProvider';
 import { motion } from 'framer-motion';
 import cloud from '../assets/cloudBg.png';
 import cloudDark from '../assets/cloudDark.png';
-import resume from '../assets/Vinay_Shah_Resume.pdf';
+import resume from '../assets/Vinay Shah Resume.pdf';
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -53,8 +53,8 @@ const Home = () => {
                     : 'mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0'
                 }
               >
-                I am a Full-Stack Web Developer with more than 3 years of
-                extensive and applied experience in building web applications
+                I am a Full-Stack Web Developer with more than 2 years of
+                extensive and applied experience for building web applications
                 using different technologies.
               </li>
 

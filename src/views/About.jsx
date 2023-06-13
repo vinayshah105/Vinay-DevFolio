@@ -34,8 +34,8 @@ const About = () => {
               >
                 <p>
                   I'm a Toronto-based performance-focused Software Developer
-                  with more than 3 years of experience in and developing Web
-                  Applications from scratch to production and maintenance using{' '}
+                  with more than 2 years of experience in and developing Web
+                  Applications from scratch to production and maintenance using
                   <b> MERN Stack web development </b> technologies. I am
                   currently working at Centurion Technology Solutions Inc as a
                   Full-stack Developer. I am dedicated to constantly improving
@@ -63,8 +63,8 @@ const About = () => {
             <p
               className={
                 darkMode
-                  ? 'mt-4 text-xl text-justify text-gray-500'
-                  : 'mt-4 text-xl text-justify text-white'
+                  ? 'mt-3 text-xl text-justify text-gray-500'
+                  : 'mt-3 text-xl text-justify text-white'
               }
             >
               Using a combination of cutting-edge technologies and reliable
